@@ -1,0 +1,47 @@
+.someClass {
+    display: flex;
+    margin: 10px;
+
+}
+
+.name {
+    width: 100px;
+    margin-right: 5%;
+
+}
+
+.priority {
+    width: 100px;
+    margin-right: 5%;
+
+}
+
+.activeFilter {
+    background-color: yellowgreen;
+
+}
+
+.button {
+    background-color: #7A7DD6;
+    width: 55px;
+    height: 25px;
+    margin-left: 5px;
+    position: relative;
+    /* top: 50px;*/
+    left: 1px;
+    margin-right: 5px;
+    border: 2px solid yellowgreen
+}
+
+.item {
+    background-image: linear-gradient(to right, pink, lightgreen);
+    width: 300px;
+    height: 220px;
+
+}
+.buttonFilter {
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+
+}

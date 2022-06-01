@@ -1,0 +1,33 @@
+.someClass {
+
+}
+
+.error {
+    border: 3px solid red;
+}
+
+.buttonOn {
+    background-color: #7A7DD6;
+    width: 55px;
+    height: 28px;
+    margin-left: 5px;
+    position: relative;
+    /* top: 50px;*/
+    left: 1px;
+    margin-right: 5px;
+    border: 2px solid #7A7DD6
+
+}
+
+.errorMessage {
+    color: red;
+}
+.place {
+    height: 50px;
+}
+.inputClass{
+    margin: 5px;
+    background-image: linear-gradient(to right, pink, lightgreen);
+    border: 2px solid #7A7DD6;
+    padding: 5px;
+}

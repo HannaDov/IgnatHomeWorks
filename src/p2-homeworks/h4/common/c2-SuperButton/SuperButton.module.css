@@ -1,0 +1,48 @@
+.button {
+    color:midnightblue;
+    outline: none;
+    background: darkmagenta;
+}
+
+.red {
+    border: 2px dashed red;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.default {
+    margin: 10px 0;
+    position: relative;
+    background-color:darkseagreen;
+    border: none;
+    font-size: 17px;
+    color: #FFFFFF;
+   /* padding: 20px;*/
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.default:after {
+    content: "";
+    background: white;
+    display: block;
+    position: absolute;
+    padding-top: 200%;
+    padding-left: 500%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.default:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}

@@ -1,0 +1,29 @@
+.item {
+    text-decoration: none;
+    color: midnightblue;
+    margin: 10px;
+
+}
+
+.item:hover {
+    color: limegreen;
+}
+
+.main {
+    display: flex;
+    transform: translate(-320px);
+    transition-duration: 0.3ms;
+    padding: 15px;
+    width: 50px;
+
+}
+
+.main:hover {
+    transition-duration: 2s;
+    transform: translate(0);
+}
+
+.block {
+    margin: 10px;
+    color: midnightblue;
+}

@@ -1,0 +1,62 @@
+.messageStyle {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+    background-color: yellowgreen;
+    border: 8px solid yellowgreen;
+    width: 470px;
+    height: 110px;
+    font-family: 'Neucha', cursive;
+    margin: 10px;
+
+
+}
+
+.img {
+    width: 65px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+
+}
+
+.p {
+    position: relative;
+    width: 300px;
+    height: 55px;
+    line-height: 5px;
+    margin-left: 40px;
+    padding: 25px;
+    border-radius: 10px 10px 10px 0;
+    background: darkgreen;
+    color: black;
+
+}
+
+.p:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left, transparent 49%, darkgreen 51%) no-repeat right bottom;
+
+}
+
+
+.item {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.message {
+word-wrap: break-word;
+}
+
+.itemTime {
+    margin-left: 250px;
+}
+
