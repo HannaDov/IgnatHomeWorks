@@ -12,14 +12,14 @@
 .main {
     display: flex;
     transform: translate(-320px);
-    transition-duration: 0.3ms;
+   transition-duration: 5s;
     padding: 15px;
     width: 50px;
 
 }
 
 .main:hover {
-    transition-duration: 2s;
+   transition-duration: 5s;
     transform: translate(0);
 }
 
