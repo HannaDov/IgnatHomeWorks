@@ -1,0 +1,20 @@
+ .custom_radio {
+  appearance: none;
+  online:none;
+
+  border-radius:50%;
+
+ }
+ .custom_radio:hover {
+  border:6px solid pink;
+
+  }
+
+.custom_radio:checked {
+  border:6px solid pink;
+
+  }
+  .custom_radio:focus {
+    border:6px solid lightgreen;
+
+    }
